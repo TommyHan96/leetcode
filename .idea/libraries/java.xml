@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="java">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/Desktop/spark源码/spark-2.4.5/sql/catalyst/src/main/java" />
+      <root url="file://$USER_HOME$/Desktop/spark源码/spark-2.4.5/sql/catalyst/src/test/java" />
+      <root url="file://$USER_HOME$/Desktop/spark源码/spark-2.4.5/sql/core/src/main/java" />
+      <root url="file://$USER_HOME$/Desktop/spark源码/spark-2.4.5/sql/core/src/main/scala" />
+      <root url="file://$USER_HOME$/Desktop/spark源码/spark-2.4.5/sql/core/src/test/gen-java" />
+      <root url="file://$USER_HOME$/Desktop/spark源码/spark-2.4.5/sql/core/src/test/java" />
+      <root url="file://$USER_HOME$/Desktop/spark源码/spark-2.4.5/sql/hive-thriftserver/src/gen/java" />
+      <root url="file://$USER_HOME$/Desktop/spark源码/spark-2.4.5/sql/hive-thriftserver/src/main/java" />
+      <root url="file://$USER_HOME$/Desktop/spark源码/spark-2.4.5/sql/hive/src/main/java" />
+      <root url="file://$USER_HOME$/Desktop/spark源码/spark-2.4.5/sql/hive/src/main/scala" />
+      <root url="file://$USER_HOME$/Desktop/spark源码/spark-2.4.5/sql/hive/src/test/java" />
+    </SOURCES>
+  </library>
+</component>
