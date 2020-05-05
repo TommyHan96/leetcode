@@ -10,12 +10,12 @@ class TreeSolutions {
     var right: TreeNode = null
   }
 
-  //Recursive solution
-  //  def preorderTraversal(root: TreeNode): List[Int] = {
-  //    var result = scala.collection.mutable.ListBuffer[Int]()
-  //    helper(root, result)
-  //    result.toList
-  //  }
+    //Recursive solution
+    def preorderTraversalRecursive(root: TreeNode): List[Int] = {
+      var result = scala.collection.mutable.ListBuffer[Int]()
+      helper(root, result)
+      result.toList
+    }
 
   def helper(root: TreeNode, result: scala.collection.mutable.ListBuffer[Int]): scala.collection.mutable.ListBuffer[Int] = {
     if (root != null) {
@@ -27,7 +27,7 @@ class TreeSolutions {
   }
 
   //iteratively solution
-  def preorderTraversal(root: TreeNode): List[Int] = {
+  def preorderTraversalIteratively(root: TreeNode): List[Int] = {
     val result = scala.collection.mutable.ListBuffer[Int]()
     val stack = scala.collection.mutable.Stack[TreeNode]()
     var p = root
