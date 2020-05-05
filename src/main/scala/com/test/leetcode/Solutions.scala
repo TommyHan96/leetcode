@@ -4,26 +4,18 @@ import scala.collection.mutable
 
 object solutions {
 
-
-
   //7.整数反转
-  //1.转化为字符串   问题：超出Int范围的时候返回什么
-  //2.借用栈实现
-  def reverseIntegerBytoString(x: Int): Int = {
-    var y = 0
-    if (x > 0) {
-      val b = x.toLong.toString.reverse.toLong
-      if (b <= Int.MaxValue) {
-        y = b.toInt
-      }
+  def reverse(x: Int): Int = {
+    var rev = 0
+    var tmp = x
+    while (tmp != 0){
+      val pop = tmp % 10
+      tmp /= 10
+      if (rev > Int.MaxValue / 10 ||(rev == Int.MaxValue / 10 && pop > 7)) return 0
+      if (rev < Int.MinValue / 10 || (rev == Int.MinValue / 10 && pop < -8)) return 0
+      rev = rev * 10 + pop
     }
-    if (x < 0) {
-      val b = (x.toLong.abs).toString.reverse.toLong * -1
-      if (b >= Int.MinValue) {
-        y = b.toInt
-      }
-    }
-    y
+    rev
   }
 
   //724.寻找数组的中心索引

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="spark-streaming_2.11-2.4.5">
+    <CLASSES>
+      <root url="jar://D:/software/spark-2.4.5-bin-hadoop2.7/jars/spark-streaming_2.11-2.4.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

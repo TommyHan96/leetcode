@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="spark-core_2.11-2.4.5">
+    <CLASSES>
+      <root url="jar://D:/software/spark-2.4.5-bin-hadoop2.7/jars/spark-core_2.11-2.4.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/Desktop/spark源码/spark-2.4.5/core/src/main/java" />
+      <root url="file://$USER_HOME$/Desktop/spark源码/spark-2.4.5/core/src/main/scala" />
+      <root url="file://$USER_HOME$/Desktop/spark源码/spark-2.4.5/core/src/test/java" />
+    </SOURCES>
+  </library>
+</component>
