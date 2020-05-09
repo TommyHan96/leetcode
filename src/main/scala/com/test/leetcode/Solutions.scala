@@ -1,8 +1,6 @@
 package com.test.leetcode
 
-import scala.collection.mutable
-
-object solutions {
+object Solutions {
 
   //7.整数反转
   def reverse(x: Int): Int = {
@@ -40,7 +38,7 @@ object solutions {
 
   //66.加一
   def plusOne(digits: Array[Int]): Array[Int] = {
-    for (i <- (digits.indices).reverse) {
+    for (i <- digits.indices.reverse) {
       digits(i) += 1
       digits(i) = digits(i) % 10
       if (digits(i) != 0) return digits

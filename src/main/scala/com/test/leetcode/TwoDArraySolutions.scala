@@ -1,5 +1,7 @@
 package com.test.leetcode
 
+import scala.collection.mutable.ArrayBuffer
+import scala.collection.mutable.ListBuffer
 class TwoDArraySolutions {
   //498.对角线遍历
   def findDiagonalOrder(matrix: Array[Array[Int]]): Array[Int] = {
@@ -7,7 +9,7 @@ class TwoDArraySolutions {
     val N = matrix.length
     val M = matrix(0).length
     var result = Array[Int]() //结果数组
-    var tmp = scala.collection.mutable.ArrayBuffer[Int]() //存放每趟对角线遍历
+    var tmp = ArrayBuffer[Int]() //存放每趟对角线遍历
     for (level <- 0 until N + M - 1) { // 一排对角线元素视为一个level，level = row + col, until 不包含N + M - 1（同 to N + M - 2）
       tmp.clear() //清空
       var row = if (level < M) 0 else level - M + 1 //定位每次开始的行
@@ -25,7 +27,7 @@ class TwoDArraySolutions {
 
   //54.螺旋矩阵
   def spiralOrder(matrix: Array[Array[Int]]): List[Int] = {
-    var result = scala.collection.mutable.ListBuffer[Int]()
+    var result = ListBuffer[Int]()
     if (matrix.length == 0) return result.toList //空则直接返回
     val rowLength = matrix.length
     val colLength = matrix(0).length

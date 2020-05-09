@@ -1,9 +1,11 @@
 package com.test.leetcode
 
+import scala.collection.mutable
+
 class StackSolutions {
   //20.有效的括号
   def isValid(s: String): Boolean = {
-    var stack = scala.collection.mutable.Stack[Char]()
+    val stack = mutable.Stack[Char]()
     val map = Map('(' -> ')', '[' -> ']', '{' -> '}')
     var result = true
     if (s.length % 2 != 0) return false
@@ -17,8 +19,8 @@ class StackSolutions {
 
   //155.最小栈
   class MinStack() {
-    var s = scala.collection.mutable.Stack[Int]()
-    var minStack = scala.collection.mutable.Stack[Int]()
+    var s: mutable.Stack[Int] = mutable.Stack[Int]()
+    var minStack: mutable.Stack[Int] = mutable.Stack[Int]()
 
     def push(x: Int): Unit = {
       s.push(x)
@@ -31,7 +33,7 @@ class StackSolutions {
     def pop(): Unit = {
       if (s.nonEmpty) {
         if (s.top == minStack.top) {
-          s.pop();
+          s.pop()
           minStack.pop()
         }
         else s.pop()
