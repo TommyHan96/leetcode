@@ -17,4 +17,6 @@ Record my scala commit solutions of leetcode
 * [贪心法](src/main/scala/com/test/leetcode/GreedySolutions.scala)
 * [二维数组](src/main/scala/com/test/leetcode/TwoDArraySolutions.scala)
 * [双指针](src/main/scala/com/test/leetcode/TwoPointerSolutions.scala)
+* [堆排序](src/main/scala/com/test/leetcode/HeapSortSolutions.scala)
 * [其他](src/main/scala/com/test/leetcode/Solutions.scala)
+
