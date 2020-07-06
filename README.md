@@ -43,6 +43,7 @@ Record my scala commit solutions of leetcode
 * [215. 数组中的第K个最大元素](src/main/scala/com/test/leetcode/HeapSortSolutions.scala)
 ### 动态规划
 * [5.最长回文子串](src/main/scala/com/test/leetcode/DynamicProgramingSolutions.scala)
+* [1143. 最长公共子序列](src/main/scala/com/test/leetcode/DynamicProgramingSolutions.scala)
 ### 其他
 * [3. 无重复字符的最长子串](src/main/scala/com/test/leetcode/Solutions.scala)
 * [7.整数反转](src/main/scala/com/test/leetcode/Solutions.scala)
