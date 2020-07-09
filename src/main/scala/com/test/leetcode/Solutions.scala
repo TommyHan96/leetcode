@@ -2,7 +2,7 @@ package com.test.leetcode
 
 import scala.collection.mutable
 
-object Solutions {
+class Solutions {
 
   //3. 无重复字符的最长子串
   def lengthOfLongestSubstring(s: String): Int = {
@@ -22,6 +22,7 @@ object Solutions {
     ans
   }
 
+
   //7.整数反转
   def reverse(x: Int): Int = {
     var rev = 0
@@ -34,6 +35,44 @@ object Solutions {
       rev = rev * 10 + pop
     }
     rev
+  }
+
+  //9. 回文数
+  def isPalindrome(_x: Int): Boolean = {
+    if (_x < 0 || (_x % 10 == 0 && _x != 0)) return false
+
+    var reversedNum = 0
+    var x = _x
+    while (x > reversedNum) {
+      reversedNum = reversedNum * 10 + x % 10
+      x /= 10
+    }
+    x == reversedNum || x == reversedNum / 10
+  }
+
+  //14. 最长公共前缀
+  def longestCommonPrefix(strs: Array[String]): String = {
+    var flag = true
+    if (strs == null || strs.length == 0) {
+      flag = false
+      return ""
+    }
+    var pre = strs(0)
+    val len = strs.length
+    for (i <- 0 until len if flag) {
+      pre = cmpTwoStr(pre, strs(i))
+      if (pre.length == 0) flag = false
+    }
+    pre
+  }
+
+  def cmpTwoStr(str1: String, str2: String): String = {
+    val minLen = Math.min(str1.length, str2.length)
+    var index = 0
+    while (index < minLen && str1(index) == str2(index)) {
+      index += 1
+    }
+    str1.substring(0, index)
   }
 
   //724.寻找数组的中心索引
@@ -95,11 +134,5 @@ object Solutions {
     }
     -1
   }
-
-  def main(args: Array[String]): Unit = {
-    val s = "pwwkew"
-    print(lengthOfLongestSubstring(s))
-  }
-
 
 }
