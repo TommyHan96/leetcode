@@ -48,6 +48,7 @@ Record my scala commit solutions of leetcode
 * [3. 无重复字符的最长子串](src/main/scala/com/test/leetcode/Solutions.scala)
 * [7.整数反转](src/main/scala/com/test/leetcode/Solutions.scala)
 * [9. 回文数](src/main/scala/com/test/leetcode/Solutions.scala)
+* [14. 最长公共前缀](src/main/scala/com/test/leetcode/Solutions.scala)
 * [747.至少是其他数字两倍的最大数](src/main/scala/com/test/leetcode/Solutions.scala)
 * [66.加一](src/main/scala/com/test/leetcode/Solutions.scala)
 * [67.二进制求和](src/main/scala/com/test/leetcode/Solutions.scala)
