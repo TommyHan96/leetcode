@@ -10,6 +10,7 @@ Record my scala commit solutions of leetcode
 * [2.两数相加](src/main/scala/com/test/leetcode/LinkedListSolutions.scala)
 * [19.删除链表的倒数第N个节点](src/main/scala/com/test/leetcode/LinkedListSolutions.scala)
 * [707.设计链表](src/main/scala/com/test/leetcode/LinkedListSolutions.scala)
+* [剑指 Offer 06. 从尾到头打印链表](src/main/scala/com/test/leetcode/LinkedListSolutions.scala)
 ### 栈
 * [20.有效的括号](src/main/scala/com/test/leetcode/StackSolutions.scala)
 * [155.最小栈](src/main/scala/com/test/leetcode/StackSolutions.scala)
@@ -23,6 +24,8 @@ Record my scala commit solutions of leetcode
 * [102. 二叉树的层序遍历](src/main/scala/com/test/leetcode/TreeSolutions.scala)
 ### 二分法
 * [35.搜索插入位置](src/main/scala/com/test/leetcode/BinarySearchSolutions.scala)
+* [4. 寻找两个正序数组的中位数(部分测试用例存在bug)](src/main/scala/com/test/leetcode/BinarySearchSolutions.scala)
+* [剑指 Offer 04. 二维数组中的查找](src/main/scala/com/test/leetcode/BinarySearchSolutions.scala)
 ### 深度优先搜索
 * [200. 岛屿数量](src/main/scala/com/test/leetcode/DFSSloutions.scala)
 ### 广度优先搜素
