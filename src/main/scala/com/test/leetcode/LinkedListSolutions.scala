@@ -1,33 +1,35 @@
 package com.test.leetcode
 
-class LinkedListSolutions {
-    //2.两数相加
-    /*
-    class ListNode(var _x: Int = 0) {
-      var next: ListNode = null
-      var x: Int = _x
-    }
+import scala.collection.mutable.ArrayBuffer
 
-    def addTwoNumbers(l1: ListNode, l2: ListNode): ListNode = {
-      var carry: Int = 0
-      var result: ListNode = new ListNode(0)
-      var p = l1
-      var q = l2
-      var cur = result
-      while (p != null || q != null) {
-        val x = if (p != null) p.x else 0
-        val y = if (q != null) q.x else 0
-        val sum = carry + x + y
-        carry = sum / 10
-        cur.next = new ListNode(sum % 10)
-        cur = cur.next
-        if (p != null) p = p.next
-        if (q != null) q = q.next
-      }
-      if (carry > 0) cur.next = new ListNode(carry)
-      result.next
+class LinkedListSolutions {
+  //2.两数相加
+  /*
+  class ListNode(var _x: Int = 0) {
+    var next: ListNode = null
+    var x: Int = _x
+  }
+
+  def addTwoNumbers(l1: ListNode, l2: ListNode): ListNode = {
+    var carry: Int = 0
+    var result: ListNode = new ListNode(0)
+    var p = l1
+    var q = l2
+    var cur = result
+    while (p != null || q != null) {
+      val x = if (p != null) p.x else 0
+      val y = if (q != null) q.x else 0
+      val sum = carry + x + y
+      carry = sum / 10
+      cur.next = new ListNode(sum % 10)
+      cur = cur.next
+      if (p != null) p = p.next
+      if (q != null) q = q.next
     }
-     */
+    if (carry > 0) cur.next = new ListNode(carry)
+    result.next
+  }
+   */
 
   //19. 删除链表的倒数第N个节点
   def removeNthFromEnd(head: ListNode, n: Int): ListNode = {
@@ -102,5 +104,29 @@ class LinkedListSolutions {
       pre.next = pre.next.next
     }
   }
+
+  //剑指 Offer 06. 从尾到头打印链表
+  /**
+   * Definition for singly-linked list.
+   *
+   * class ListNode(var _x: Int = 0) {
+   * var next: ListNode = null
+   * var x: Int = _x
+   * }
+   */
+  def reversePrint(head: ListNode): Array[Int] = {
+    val result = ArrayBuffer[Int]()
+    val stack = scala.collection.mutable.Stack[Int]()
+    var point = head
+    while (point != null) {
+      stack.push(point._x)
+      point = point.next
+    }
+    while (stack.nonEmpty) {
+      result.addOne(stack.pop())
+    }
+    result.toArray
+  }
+
 
 }
