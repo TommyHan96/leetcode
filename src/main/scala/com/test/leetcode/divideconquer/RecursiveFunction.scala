@@ -1,6 +1,6 @@
-package com.test.leetcode
+package com.test.leetcode.divideconquer
 
-class DivideAndConquerSolutions {
+class RecursiveFunction {
   //53.最大子序和
   //分治法实现
   //todo
@@ -32,5 +32,4 @@ class DivideAndConquerSolutions {
 
     }
    */
-
 }

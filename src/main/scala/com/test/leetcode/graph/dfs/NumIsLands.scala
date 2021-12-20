@@ -1,6 +1,6 @@
-package com.test.leetcode
+package com.test.leetcode.graph.dfs
 
-class DFSSloutions {
+class NumIsLands {
   //200. 岛屿数量
   //深度优先遍历
   def dfs(grid: Array[Array[Char]], row: Int, col: Int): Int = {
@@ -32,6 +32,4 @@ class DFSSloutions {
     }
     numLands
   }
-
-
 }
