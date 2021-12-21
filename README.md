@@ -22,6 +22,7 @@ Record my scala commit solutions of leetcode
 * [94. 二叉树的中序遍历](src/main/scala/com/test/leetcode/tree/BinaryTreeInorderTraversal.scala)
 * [145. 二叉树的后序遍历](src/main/scala/com/test/leetcode/tree/BinaryTreePostorderTraversal.scala)
 * [102. 二叉树的层序遍历](src/main/scala/com/test/leetcode/tree/BinaryTreeLevelOrderTraversal.scala)
+* [222.完全二叉树的节点个数](src/main/scala/com/test/leetcode/tree/CountCompleteTreeNodes.scala)
 ### 二分法
 * [35.搜索插入位置](src/main/scala/com/test/leetcode/binarysearch/SearchInsert.scala)
 * [4. 寻找两个正序数组的中位数(部分测试用例存在bug)](src/main/scala/com/test/leetcode/binarysearch/FindMedianSortedArrays.scala)
