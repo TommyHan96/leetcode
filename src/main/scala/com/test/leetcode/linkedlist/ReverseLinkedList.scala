@@ -1,6 +1,14 @@
 package com.test.leetcode.linkedlist
 
+import scala.collection.mutable.ArrayBuffer
+
 class ReverseLinkedList {
+
+  class ListNode(var _x: Int = 0) {
+    var next: ListNode = null
+    var x: Int = _x
+  }
+
   //剑指 Offer 06. 从尾到头打印链表
   /**
    * Definition for singly-linked list.

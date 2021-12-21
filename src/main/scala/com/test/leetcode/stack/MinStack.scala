@@ -1,5 +1,7 @@
 package com.test.leetcode.stack
 
+import scala.collection.mutable
+
 class MinStack {
   //155.最小栈
   class MinStack() {

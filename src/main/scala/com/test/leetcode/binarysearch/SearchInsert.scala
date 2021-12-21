@@ -17,6 +17,7 @@ class SearchInsert {
   }
 
   //非二分法  单次for循环
+  /*
   def searchInsert(nums: Array[Int], target: Int): Int = {
     var res = 0
     if (target > nums.max)
@@ -32,4 +33,5 @@ class SearchInsert {
     }
     res
   }
+   */
 }

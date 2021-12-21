@@ -1,5 +1,7 @@
 package com.test.leetcode.others
 
+import scala.collection.mutable
+
 class LengthOfLongestSubstring {
   //3. 无重复字符的最长子串
   def lengthOfLongestSubstring(s: String): Int = {

@@ -1,6 +1,16 @@
 package com.test.leetcode.tree
 
+import scala.collection.mutable
+import scala.collection.mutable.ListBuffer
+
 class BinaryTreePostorderTraversal {
+
+  class TreeNode(var _value: Int) {
+    var value: Int = _value
+    var left: TreeNode = _
+    var right: TreeNode = _
+  }
+
   //145. 二叉树的后序遍历
   def postorderTraversal(root: TreeNode): List[Int] = {
     var result = ListBuffer[Int]()

@@ -1,5 +1,7 @@
 package com.test.leetcode.twodarr
 
+import scala.collection.mutable.ArrayBuffer
+
 class FindDiagonalOrder {
   //498.对角线遍历
   def findDiagonalOrder(matrix: Array[Array[Int]]): Array[Int] = {

@@ -1,5 +1,7 @@
 package com.test.leetcode.tree
 
+import scala.collection.mutable.ListBuffer
+
 class BinaryTreePreorderTraversal {
   //144.二叉树的前序遍历
   //Definition for a binary tree node.

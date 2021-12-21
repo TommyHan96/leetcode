@@ -1,5 +1,9 @@
 package com.test.leetcode.hash
 
+import scala.collection.mutable
+import scala.collection.mutable.ArrayBuffer
+
+
 class InterSection {
   //349.两个数组的交集
   def intersection(nums1: Array[Int], nums2: Array[Int]): Array[Int] = {

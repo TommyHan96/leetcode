@@ -1,6 +1,16 @@
 package com.test.leetcode.tree
 
+import scala.collection.mutable
+import scala.collection.mutable.ListBuffer
+
 class BinaryTreeLevelOrderTraversal {
+
+  class TreeNode(var _value: Int) {
+    var value: Int = _value
+    var left: TreeNode = _
+    var right: TreeNode = _
+  }
+
   //102. 二叉树的层序遍历
   def levelOrder(root: TreeNode): List[List[Int]] = {
     var result: ListBuffer[List[Int]] = ListBuffer()

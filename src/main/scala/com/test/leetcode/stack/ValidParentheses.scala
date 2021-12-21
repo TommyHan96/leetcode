@@ -1,5 +1,7 @@
 package com.test.leetcode.stack
 
+import scala.collection.mutable
+
 class ValidParentheses {
   //20.有效的括号
   def isValid(s: String): Boolean = {

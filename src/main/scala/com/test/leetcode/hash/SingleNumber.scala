@@ -1,6 +1,7 @@
 package com.test.leetcode.hash
 
-object SingleNumber {
+import scala.collection.mutable
+class SingleNumber {
   //136.只出现一次的数字
   def singleNumber(nums: Array[Int]): Int = {
     var hashMap = mutable.HashMap.empty[Int, Int]
