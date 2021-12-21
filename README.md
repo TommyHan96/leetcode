@@ -53,7 +53,7 @@ Record my scala commit solutions of leetcode
 * [9. 回文数](src/main/scala/com/test/leetcode/others/IsPalindrome.scala)
 * [14. 最长公共前缀](src/main/scala/com/test/leetcode/others/LongestCommonPrefix.scala)
 * [747.至少是其他数字两倍的最大数](src/main/scala/com/test/leetcode/others/DominantIndex.scala)
-* [66.加一](src/main/scala/com/test/leetcode/Solutions.scala)
+* [66.加一](src/main/scala/com/test/leetcode/others/PlusOne.scala)
 * [67.二进制求和](src/main/scala/com/test/leetcode/others/AddBinary.scala)
 * [28.实现 strStr()](src/main/scala/com/test/leetcode/others/StrStr.scala)
 
