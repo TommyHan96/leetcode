@@ -1,6 +1,6 @@
 package com.test.leetcode.graph.bfs
 
-object NumIslands {
+class NumIslands {
   //200. 岛屿数量
   //广度优先遍历
   def numIslands(grid: Array[Array[Char]]): Int = {

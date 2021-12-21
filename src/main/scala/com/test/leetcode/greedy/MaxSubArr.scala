@@ -1,6 +1,6 @@
 package com.test.leetcode.greedy
 
-object MaxSubArr {
+class MaxSubArr {
   //53.最大子序和
   //贪心法实现
   def maxSubArray(nums: Array[Int]): Int = {
