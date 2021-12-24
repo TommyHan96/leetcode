@@ -18,14 +18,14 @@ Record my scala commit solutions of leetcode
 * [136.只出现一次的数字](src/main/scala/com/test/leetcode/hash/SingleNumber.scala)
 * [349.两个数组的交集](src/main/scala/com/test/leetcode/hash/InterSection.scala)
 ### 树
-* [144.二叉树的前序遍历](src/main/scala/com/test/leetcode/tree/BinaryTreePreorderTraversal.scala)
 * [94. 二叉树的中序遍历](src/main/scala/com/test/leetcode/tree/BinaryTreeInorderTraversal.scala)
-* [145. 二叉树的后序遍历](src/main/scala/com/test/leetcode/tree/BinaryTreePostorderTraversal.scala)
 * [102. 二叉树的层序遍历](src/main/scala/com/test/leetcode/tree/BinaryTreeLevelOrderTraversal.scala)
+* [144.二叉树的前序遍历](src/main/scala/com/test/leetcode/tree/BinaryTreePreorderTraversal.scala)
+* [145. 二叉树的后序遍历](src/main/scala/com/test/leetcode/tree/BinaryTreePostorderTraversal.scala)
 * [222.完全二叉树的节点个数](src/main/scala/com/test/leetcode/tree/CountCompleteTreeNodes.scala)
 ### 二分法
-* [35.搜索插入位置](src/main/scala/com/test/leetcode/binarysearch/SearchInsert.scala)
 * [4. 寻找两个正序数组的中位数(部分测试用例存在bug)](src/main/scala/com/test/leetcode/binarysearch/FindMedianSortedArrays.scala)
+* [35.搜索插入位置](src/main/scala/com/test/leetcode/binarysearch/SearchInsert.scala)
 * [剑指 Offer 04. 二维数组中的查找](src/main/scala/com/test/leetcode/binarysearch/SearchMatrix.scala)
 ### 深度优先搜索
 * [200. 岛屿数量](src/main/scala/com/test/leetcode/graph/dfs/NumIsLands.scala)
@@ -36,26 +36,28 @@ Record my scala commit solutions of leetcode
 ### 贪心法
 * [53.最大子序和](src/main/scala/com/test/leetcode/greedy/MaxSubArr.scala)
 ### 二维数组
-* [498.对角线遍历](src/main/scala/com/test/leetcode/twodarr/FindDiagonalOrder.scala)
 * [54.螺旋矩阵](src/main/scala/com/test/leetcode/twodarr/SpiralOrder.scala)
+* [498.对角线遍历](src/main/scala/com/test/leetcode/twodarr/FindDiagonalOrder.scala)
 ### 双指针
+* [15. 三数之和](src/main/scala/com/test/leetcode/twopointer/ThreeNumSum.scala)
 * [26.删除排序数组中的重复项](src/main/scala/com/test/leetcode/twopointer/RemoveDuplicates.scala)
 * [27.移除元素](src/main/scala/com/test/leetcode/twopointer/RemoveElements.scala)
 * [344. 反转字符串](src/main/scala/com/test/leetcode/twopointer/ReverseString.scala)
-* [15. 三数之和](src/main/scala/com/test/leetcode/twopointer/ThreeNumSum.scala)
 ### 堆排序
 * [215. 数组中的第K个最大元素](src/main/scala/com/test/leetcode/heap/KthLargesth.scala)
 ### 动态规划
 * [5.最长回文子串](src/main/scala/com/test/leetcode/dynamicprograming/LongestPalindrome.scala)
+* [42. 接雨水](src/main/scala/com/test/leetcode/dynamicprograming/TrappingRainWater.scala)
 * [1143. 最长公共子序列](src/main/scala/com/test/leetcode/dynamicprograming/LongestCommonSubsequence.scala)
 ### 其他
 * [3. 无重复字符的最长子串](src/main/scala/com/test/leetcode/others/LengthOfLongestSubstring.scala)
 * [7.整数反转](src/main/scala/com/test/leetcode/others/Reverse.scala)
 * [9. 回文数](src/main/scala/com/test/leetcode/others/IsPalindrome.scala)
 * [14. 最长公共前缀](src/main/scala/com/test/leetcode/others/LongestCommonPrefix.scala)
-* [747.至少是其他数字两倍的最大数](src/main/scala/com/test/leetcode/others/DominantIndex.scala)
+* [28.实现 strStr()](src/main/scala/com/test/leetcode/others/StrStr.scala)
 * [66.加一](src/main/scala/com/test/leetcode/others/PlusOne.scala)
 * [67.二进制求和](src/main/scala/com/test/leetcode/others/AddBinary.scala)
-* [28.实现 strStr()](src/main/scala/com/test/leetcode/others/StrStr.scala)
+* [747.至少是其他数字两倍的最大数](src/main/scala/com/test/leetcode/others/DominantIndex.scala)
+
 
 
