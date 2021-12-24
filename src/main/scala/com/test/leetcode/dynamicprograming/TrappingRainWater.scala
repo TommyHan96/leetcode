@@ -31,9 +31,31 @@ object TrappingRainWater {
     ans
   }
 
+  //双指针解法
+  def trap1(height: Array[Int]) :Int = {
+    var l = 0
+    var r = height.length -1
+    var maxL = height(l)
+    var maxR = height(r)
+    var res = 0
+    while (l < r){
+      if (maxL < maxR){
+        res += maxL - height(l)
+        l+=1
+        maxL = Math.max(height(l), maxL)
+      }
+      else {
+        res += maxR - height(r)
+        r-=1
+        maxR = Math.max(height(r), maxR)
+      }
+    }
+    res
+  }
   def main(args: Array[String]): Unit = {
     val height = Array(4,2,0,3,2,5)
 
     println(trap(height))
+    println(trap1(height))
   }
 }
