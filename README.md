@@ -20,6 +20,7 @@ Record my scala commit solutions of leetcode
 ### 树
 * [94. 二叉树的中序遍历](src/main/scala/com/test/leetcode/tree/BinaryTreeInorderTraversal.scala)
 * [102. 二叉树的层序遍历](src/main/scala/com/test/leetcode/tree/BinaryTreeLevelOrderTraversal.scala)
+* [112.路径总和](src/main/scala/com/test/leetcode/tree/PathSum.scala)
 * [144.二叉树的前序遍历](src/main/scala/com/test/leetcode/tree/BinaryTreePreorderTraversal.scala)
 * [145. 二叉树的后序遍历](src/main/scala/com/test/leetcode/tree/BinaryTreePostorderTraversal.scala)
 * [222.完全二叉树的节点个数](src/main/scala/com/test/leetcode/tree/CountCompleteTreeNodes.scala)

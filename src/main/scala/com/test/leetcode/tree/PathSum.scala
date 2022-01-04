@@ -2,6 +2,7 @@ package com.test.leetcode.tree
 
 object PathSum {
 
+  //112.路径总和
   class TreeNode(_value: Int = 0, _left: TreeNode = null, _right: TreeNode = null) {
     var value: Int = _value
     var left: TreeNode = _left
