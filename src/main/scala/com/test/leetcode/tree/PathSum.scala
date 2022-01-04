@@ -11,6 +11,15 @@ object PathSum {
 
   def hasPathSum(root: TreeNode, targetSum: Int): Boolean = {
     if (root == null) return false
+    if (root.left == null && root.right == null && root.value == targetSum) return true
+    hasPathSum(root.left, targetSum - root.value) || hasPathSum(root.right, targetSum-root.value)
+  }
 
+  def main(args: Array[String]): Unit = {
+    val lLeaf = new TreeNode(2)
+    val rLeaf = new TreeNode(3)
+    val root = new TreeNode(1, lLeaf, rLeaf)
+
+    println(hasPathSum(root, 5))
   }
 }
