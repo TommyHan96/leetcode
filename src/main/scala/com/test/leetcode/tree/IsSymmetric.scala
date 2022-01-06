@@ -9,9 +9,13 @@ object IsSymmetric {
   }
 
   def isSymmetric(root: TreeNode): Boolean = {
-    if (root == null) return true
-    if (root.left == null || root.right == null || root.left.value != root.right.value) return false
+    check(root, root)
+  }
 
+  def check(p: TreeNode, q: TreeNode): Boolean = {
+    if (p == null && q == null) return true
+    if (p == null || q == null) return false
+    p.value == q.value && check(p.left, q.right) && check(p.right, q.left)
   }
 
 }
