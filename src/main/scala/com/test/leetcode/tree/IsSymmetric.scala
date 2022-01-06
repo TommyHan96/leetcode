@@ -8,6 +8,7 @@ object IsSymmetric {
     var right: TreeNode = _right
   }
 
+  //101. 对称二叉树
   def isSymmetric(root: TreeNode): Boolean = {
     check(root, root)
   }
