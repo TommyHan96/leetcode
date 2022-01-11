@@ -1,9 +1,5 @@
 package com.test.leetcode.linkedlist
 
-/**
- * @author theo.han
- *         date: 2022/1/10
- */
 object SwapNodes {
 
     class ListNode(_x: Int = 0, _next: ListNode = null) {
