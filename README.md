@@ -9,8 +9,10 @@ Record my scala commit solutions of leetcode
 ### 链表
 * [2.两数相加](src/main/scala/com/test/leetcode/linkedlist/AddTwoNumber.scala)
 * [19.删除链表的倒数第N个节点](src/main/scala/com/test/leetcode/linkedlist/RemoveNthFromEnd.scala)
+* [83. 删除排序链表中的重复元素](src/main/scala/com/test/leetcode/linkedlist/DeleteDuplicates.scala)
 * [206. 反转链表](src/main/scala/com/test/leetcode/linkedlist/ReverseList.scala)
 * [707.设计链表](src/main/scala/com/test/leetcode/linkedlist/DesignLinkedList.scala)
+* [1721. 交换链表中的节点](src/main/scala/com/test/leetcode/linkedlist/SwapNodes.scala)
 * [剑指 Offer 06. 从尾到头打印链表](com/test/leetcode/linkedlist/ReverseLinkedList.scala)
 ### 栈
 * [20.有效的括号](src/main/scala/com/test/leetcode/stack/ValidParentheses.scala)
