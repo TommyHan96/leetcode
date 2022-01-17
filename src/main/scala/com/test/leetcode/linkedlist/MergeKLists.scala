@@ -46,7 +46,7 @@ object MergeKLists {
   def recursionMergeTwoLists(la: ListNode, lb: ListNode): ListNode = {
     if (la == null) lb
     else if (lb == null) la
-    else if (la.x > lb.x){
+    else if (la.x > lb.x) {
       lb.next = recursionMergeTwoLists(la, lb.next)
       lb
     }
@@ -56,4 +56,17 @@ object MergeKLists {
     }
   }
 
+  //分治
+  def merge(lists: Array[ListNode], l: Int, r: Int): ListNode = {
+    if (l == r) {
+      return lists(l)
+    }
+    if (l > r) return null
+    val mid = (l + r) >> 1
+    mergeTwoLists(merge(lists, l, mid), merge(lists, mid + 1, r))
+  }
+
+  def mergeKListsDivide(lists: Array[ListNode]): ListNode = {
+    merge(lists, 0, lists.length - 1)
+  }
 }
