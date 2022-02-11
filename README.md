@@ -58,6 +58,9 @@ Record my scala commit solutions of leetcode
 * [5.最长回文子串](src/main/scala/com/test/leetcode/dynamicprograming/LongestPalindrome.scala)
 * [42. 接雨水](src/main/scala/com/test/leetcode/dynamicprograming/TrappingRainWater.scala)
 * [1143. 最长公共子序列](src/main/scala/com/test/leetcode/dynamicprograming/LongestCommonSubsequence.scala)
+* [96.不同的二叉搜索树](src/main/scala/com/test/leetcode/dynamicprograming/NumTrees.java)
+### 回溯
+* [51.N皇后](src/main/scala/com/test/leetcode/backtrack/SolveNQueens.java)
 ### 其他
 * [3. 无重复字符的最长子串](src/main/scala/com/test/leetcode/others/LengthOfLongestSubstring.scala)
 * [7.整数反转](src/main/scala/com/test/leetcode/others/Reverse.scala)

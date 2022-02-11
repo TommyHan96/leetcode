@@ -1,4 +1,4 @@
-name := "test"
+name := "leetcode"
 
 version := "0.1"
 
