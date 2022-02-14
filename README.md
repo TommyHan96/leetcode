@@ -25,6 +25,7 @@ Record my scala commit solutions of leetcode
 * [349.两个数组的交集](src/main/scala/com/test/leetcode/hash/InterSection.scala)
 ### 树
 * [94. 二叉树的中序遍历](src/main/scala/com/test/leetcode/tree/BinaryTreeInorderTraversal.scala)
+* [98.验证二叉搜索树](src/main/scala/com/test/leetcode/tree/IsValidBST.java)
 * [102. 二叉树的层序遍历](src/main/scala/com/test/leetcode/tree/BinaryTreeLevelOrderTraversal.scala)
 * [100. 相同的树](src/main/scala/com/test/leetcode/tree/IsSameTree.scala)
 * [101. 对称二叉树](src/main/scala/com/test/leetcode/tree/IsSymmetric.scala)
