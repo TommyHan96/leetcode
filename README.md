@@ -29,6 +29,7 @@ Record my scala commit solutions of leetcode
 * [102. 二叉树的层序遍历](src/main/scala/com/test/leetcode/tree/BinaryTreeLevelOrderTraversal.scala)
 * [100. 相同的树](src/main/scala/com/test/leetcode/tree/IsSameTree.scala)
 * [101. 对称二叉树](src/main/scala/com/test/leetcode/tree/IsSymmetric.scala)
+  * [105.从前序与中序遍历序列构造二叉树](src/main/scala/com/test/leetcode/tree/BuildTree.java)
 * [112.路径总和](src/main/scala/com/test/leetcode/tree/PathSum.scala)
 * [144.二叉树的前序遍历](src/main/scala/com/test/leetcode/tree/BinaryTreePreorderTraversal.scala)
 * [145. 二叉树的后序遍历](src/main/scala/com/test/leetcode/tree/BinaryTreePostorderTraversal.scala)
@@ -49,6 +50,7 @@ Record my scala commit solutions of leetcode
 * [54.螺旋矩阵](src/main/scala/com/test/leetcode/twodarr/SpiralOrder.scala)
 * [498.对角线遍历](src/main/scala/com/test/leetcode/twodarr/FindDiagonalOrder.scala)
 ### 双指针
+* [11.盛最多水的容器](src/main/scala/com/test/leetcode/twopointer/MaxArea.java)
 * [15. 三数之和](src/main/scala/com/test/leetcode/twopointer/ThreeNumSum.scala)
 * [26.删除排序数组中的重复项](src/main/scala/com/test/leetcode/twopointer/RemoveDuplicates.scala)
 * [27.移除元素](src/main/scala/com/test/leetcode/twopointer/RemoveElements.scala)
