@@ -36,6 +36,8 @@ Record my scala commit solutions of leetcode
 * [144.二叉树的前序遍历](src/main/scala/com/test/leetcode/tree/BinaryTreePreorderTraversal.scala)
 * [145. 二叉树的后序遍历](src/main/scala/com/test/leetcode/tree/BinaryTreePostorderTraversal.scala)
 * [222.完全二叉树的节点个数](src/main/scala/com/test/leetcode/tree/CountCompleteTreeNodes.scala)
+* [226.翻转二叉树](src/main/scala/com/test/leetcode/tree/InvertTree.java)
+* [236.二叉树的最近公共祖先](src/main/scala/com/test/leetcode/tree/LowestCommonAncestor.java)
 ### 二分法
 * [4. 寻找两个正序数组的中位数(部分测试用例存在bug)](src/main/scala/com/test/leetcode/binarysearch/FindMedianSortedArrays.scala)
 * [35.搜索插入位置](src/main/scala/com/test/leetcode/binarysearch/SearchInsert.scala)
