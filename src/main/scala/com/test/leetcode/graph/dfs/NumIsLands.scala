@@ -26,8 +26,8 @@ class NumIsLands {
       for (j <- grid(0).indices) {
         if (grid(i)(j) == '1') {
           numLands += 1
+          dfs(grid, i, j)
         }
-        dfs(grid, i, j)
       }
     }
     numLands
