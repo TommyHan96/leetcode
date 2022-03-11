@@ -69,7 +69,9 @@ Record my scala commit solutions of leetcode
 ### 回溯
 * [51.N皇后](src/main/scala/com/test/leetcode/backtrack/SolveNQueens.java)
 ### 排序
-* [215. 数组中的第K个最大元素](src/main/scala/com/test/leetcode/sort/HeapSort.java)
+* [215. 数组中的第K个最大元素(堆排序解法)](src/main/scala/com/test/leetcode/sort/HeapSort.java)
+* [215. 数组中的第K个最大元素(快排)](src/main/scala/com/test/leetcode/sort/QuickSort.java)
+
 ### 其他
 * [3. 无重复字符的最长子串](src/main/scala/com/test/leetcode/others/LengthOfLongestSubstring.scala)
 * [7.整数反转](src/main/scala/com/test/leetcode/others/Reverse.scala)
