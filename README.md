@@ -44,7 +44,9 @@
 * [35.搜索插入位置](src/main/scala/com/test/leetcode/binarysearch/SearchInsert.scala)
 * [剑指 Offer 04. 二维数组中的查找](src/main/scala/com/test/leetcode/binarysearch/SearchMatrix.scala)
 ### 深度优先搜索
+* [113.路径总和 II](src/main/scala/com/test/leetcode/graph/dfs/PathSum2.java)
 * [200. 岛屿数量](src/main/scala/com/test/leetcode/graph/dfs/NumIsLands.scala)
+* [437.路径总和 III(双重递归解法)](src/main/scala/com/test/leetcode/graph/dfs/PathSum3.java)
 ### 广度优先搜素
 * [200. 岛屿数量](src/main/scala/com/test/leetcode/graph/bfs/NumIslands.scala)
 ### 分治法
@@ -69,6 +71,7 @@
 * [96.不同的二叉搜索树](src/main/scala/com/test/leetcode/dynamicprograming/NumTrees.java)
 ### 回溯
 * [51.N皇后](src/main/scala/com/test/leetcode/backtrack/SolveNQueens.java)
+* [437.路径总和 III(前缀和解法)](src/main/scala/com/test/leetcode/backtrack/PathSum3.java)
 ### 排序
 * [215. 数组中的第K个最大元素(堆排序解法)](src/main/scala/com/test/leetcode/sort/HeapSort.java)
 * [215. 数组中的第K个最大元素(快排)](src/main/scala/com/test/leetcode/sort/QuickSort.java)
