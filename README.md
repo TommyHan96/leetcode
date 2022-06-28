@@ -13,6 +13,7 @@ Record my scala commit solutions of leetcode
 * [24. 两两交换链表中的节点](src/main/scala/com/test/leetcode/linkedlist/SwapPairs.scala)
 * [83. 删除排序链表中的重复元素](src/main/scala/com/test/leetcode/linkedlist/DeleteDuplicates.scala)
 * [160. 相交链表](src/main/scala/com/test/leetcode/linkedlist/GetIntersectionNode.scala)
+  *[146.LRU缓存](src/main/scala/com/test/leetcode/linkedlist/LRUCache.java)
 * [206. 反转链表](src/main/scala/com/test/leetcode/linkedlist/ReverseList.scala)
 * [707.设计链表](src/main/scala/com/test/leetcode/linkedlist/DesignLinkedList.scala)
 * [1721. 交换链表中的节点](src/main/scala/com/test/leetcode/linkedlist/SwapNodes.scala)
