@@ -1,8 +1,8 @@
 # leetcode
-Record my scala commit solutions of leetcode
 
-由于超喜欢scala语言，所以想记录一下我这个菜鸟刷leetcode的过程，
-希望同时能够更加深入的了解这门语言的同时对数据结构和算法有进一步的了解。
+用scala记录一下我这个菜鸟刷leetcode的过程，
+希望同时能够加深这门语言的同时对数据结构和算法有进一步的掌握。
+乱入了些java代码... 略显怪异
 
 把题目分类方便查看和复习。
 
@@ -13,7 +13,7 @@ Record my scala commit solutions of leetcode
 * [24. 两两交换链表中的节点](src/main/scala/com/test/leetcode/linkedlist/SwapPairs.scala)
 * [83. 删除排序链表中的重复元素](src/main/scala/com/test/leetcode/linkedlist/DeleteDuplicates.scala)
 * [160. 相交链表](src/main/scala/com/test/leetcode/linkedlist/GetIntersectionNode.scala)
-  *[146.LRU缓存](src/main/scala/com/test/leetcode/linkedlist/LRUCache.java)
+* [146.LRU缓存](src/main/scala/com/test/leetcode/linkedlist/LRUCache.java)
 * [206. 反转链表](src/main/scala/com/test/leetcode/linkedlist/ReverseList.scala)
 * [707.设计链表](src/main/scala/com/test/leetcode/linkedlist/DesignLinkedList.scala)
 * [1721. 交换链表中的节点](src/main/scala/com/test/leetcode/linkedlist/SwapNodes.scala)
