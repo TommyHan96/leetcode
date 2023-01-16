@@ -67,6 +67,7 @@
 ### 动态规划
 * [5.最长回文子串](src/main/scala/com/test/leetcode/dynamicprograming/LongestPalindrome.scala)
 * [42. 接雨水](src/main/scala/com/test/leetcode/dynamicprograming/TrappingRainWater.scala)
+* [55.跳跃游戏](src/main/scala/com/test/leetcode/dynamicprograming/CanJump.java)
 * [1143. 最长公共子序列](src/main/scala/com/test/leetcode/dynamicprograming/LongestCommonSubsequence.scala)
 * [96.不同的二叉搜索树](src/main/scala/com/test/leetcode/dynamicprograming/NumTrees.java)
 ### 回溯
