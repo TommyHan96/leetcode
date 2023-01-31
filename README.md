@@ -74,6 +74,7 @@
 * [70.爬楼梯](src/main/scala/com/test/leetcode/dynamicprograming/ClimbStairs.java)
 * [96.不同的二叉搜索树](src/main/scala/com/test/leetcode/dynamicprograming/NumTrees.java)
 * [343.整数拆分](src/main/scala/com/test/leetcode/dynamicprograming/IntegerBreak.java)
+* [416. 分割等和子集](src/main/scala/com/test/leetcode/dynamicprograming/CanPartition.java)  
 * [746.使用最小花费爬楼梯](src/main/scala/com/test/leetcode/dynamicprograming/MinCostClimbingStairs.java)
 * [1143. 最长公共子序列](src/main/scala/com/test/leetcode/dynamicprograming/LongestCommonSubsequence.scala)
 ### 回溯
